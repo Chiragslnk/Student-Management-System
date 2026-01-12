@@ -1,0 +1,495 @@
+Microsoft Windows [Version 10.0.26200.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\chira>e:
+
+E:\>cd practices
+
+E:\practices>cd javaeg
+
+E:\practices\javaeg>md tech4
+
+E:\practices\javaeg>cd tech4
+
+E:\practices\javaeg\tech4>md superman
+
+E:\practices\javaeg\tech4>cd superman
+
+E:\practices\javaeg\tech4\superman>md src
+
+E:\practices\javaeg\tech4\superman>md classes
+
+E:\practices\javaeg\tech4\superman>md dist
+
+E:\practices\javaeg\tech4\superman>cd src
+
+E:\practices\javaeg\tech4\superman\src>md com
+
+E:\practices\javaeg\tech4\superman\src>cd com
+
+E:\practices\javaeg\tech4\superman\src\com>md thinkingmachine
+
+E:\practices\javaeg\tech4\superman\src\com>cd thinkingmachine
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine>md dl
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine>cd dl
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>md interfaces
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>md exceptions
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd interfaces
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>md dto
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>md dao
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd exceptions
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\exceptions>notepad DAOException.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\exceptions>javac -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\exceptions>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com>cd ..
+
+E:\practices\javaeg\tech4\superman\src>cd ..
+
+E:\practices\javaeg\tech4\superman>cd classes
+
+E:\practices\javaeg\tech4\superman\classes>dir com\school\dl\exceptions
+The system cannot find the path specified.
+
+E:\practices\javaeg\tech4\superman\classes>cd com
+
+E:\practices\javaeg\tech4\superman\classes\com>dir com\thinkingmachine\dl\exceptions
+The system cannot find the path specified.
+
+E:\practices\javaeg\tech4\superman\classes\com>cd thinkingmachine
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine>cd dl
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl>cd exceptions
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl\exceptions>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl\exceptions
+
+11/03/2025  05:50 PM    <DIR>          .
+11/03/2025  05:50 PM    <DIR>          ..
+11/03/2025  05:50 PM               258 DAOException.class
+               1 File(s)            258 bytes
+               2 Dir(s)  129,906,585,600 bytes free
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl\exceptions>cd ..\
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl>cd interfaces
+The system cannot find the path specified.
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine\dl>cd ..
+
+E:\practices\javaeg\tech4\superman\classes\com\thinkingmachine>cd ..
+
+E:\practices\javaeg\tech4\superman\classes\com>cd ..
+
+E:\practices\javaeg\tech4\superman\classes>cd ..
+
+E:\practices\javaeg\tech4\superman>cd src
+
+E:\practices\javaeg\tech4\superman\src>cd thinkingmachine
+The system cannot find the path specified.
+
+E:\practices\javaeg\tech4\superman\src>cd com
+
+E:\practices\javaeg\tech4\superman\src\com>cd thinkingmachine
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine>cd dl
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd interfaces
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd dto
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>notepad StudentDTOInterface.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>javac -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDTOInterface.java:5: error: interface StudentDAOInterface is public, should be declared in a file named StudentDAOInterface.java
+public interface StudentDAOInterface
+       ^
+StudentDTOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException;
+                ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException;
+                                                       ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:8: error: cannot find symbol
+public void update(StudentDTOInterface studentDTO) throws DAOException;
+                   ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:8: error: cannot find symbol
+public void update(StudentDTOInterface studentDTO) throws DAOException;
+                                                          ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:9: error: cannot find symbol
+public void remove(int rollNumber) throws DAOException;
+                                          ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+       ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+                                                                  ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:11: error: cannot find symbol
+public boolean exists(int rollNumber) throws DAOException;
+                                             ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:12: error: cannot find symbol
+public List<StudentDTOInterface> get() throws DAOException;
+            ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:12: error: cannot find symbol
+public List<StudentDTOInterface> get() throws DAOException;
+                                              ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDTOInterface.java:2: error: package com.school.dl.interfaces.dto does not exist
+import com.school.dl.interfaces.dto.*;
+                               ^
+StudentDTOInterface.java:3: error: package com.school.dl.exceptions does not exist
+import com.school.dl.exceptions.*;
+                    ^
+13 errors
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>javac -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd excaptions
+The system cannot find the path specified.
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd exceptions
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\exceptions>javac -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\exceptions>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd interfaces
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd dto
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>javac -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>cd .
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dto>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd dao
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>notepad StudentDTOInterface.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>notepad StudentDAOInterface.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                       ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                        ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                               ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                       ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                                            ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                                                                                                       ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                                                                                                                                                                  ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                                                                                                                                                                                            ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException; public void update(StudentDTOInterface studentDTO) throws DAOException; public void remove(int rollNumber) throws DAOException; public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException; public boolean exists(int rollNumber) throws DAOException; public List<StudentDTOInterface> get() throws DAOException;
+                                                                                                                                                                                                                                                                                                                                                                                              ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:2: error: package com.school.dl.interfaces.dto does not exist
+import com.school.dl.interfaces.dto.*;
+                               ^
+StudentDAOInterface.java:3: error: package com.school.dl.exceptions does not exist
+import com.school.dl.exceptions.*;
+                    ^
+12 errors
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException;
+                ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(StudentDTOInterface studentDTO) throws DAOException;
+                                                       ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:8: error: cannot find symbol
+public void update(StudentDTOInterface studentDTO) throws DAOException;
+                   ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:8: error: cannot find symbol
+public void update(StudentDTOInterface studentDTO) throws DAOException;
+                                                          ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:9: error: cannot find symbol
+public void remove(int rollNumber) throws DAOException;
+                                          ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+       ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+                                                                  ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:11: error: cannot find symbol
+public boolean exists(int rollNumber) throws DAOException;
+                                             ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTOInterface> get() throws DAOException;
+            ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTOInterface> get() throws DAOException;
+                                              ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:2: error: package com.school.dl.interfaces.dto does not exist
+import com.school.dl.interfaces.dto.*;
+                               ^
+StudentDAOInterface.java:3: error: package com.school.dl.exceptions does not exist
+import com.school.dl.exceptions.*;
+                    ^
+12 errors
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:7: error: cannot find symbol
+public void add(int rollNumber,String name,char gender) throws DAOException;
+                                                               ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:8: error: cannot find symbol
+public void update(int rollNumber,String name,char gender) throws DAOException;
+                                                                  ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:9: error: cannot find symbol
+public void remove(int rollNumber) throws DAOException;
+                                          ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+       ^
+  symbol:   class StudentDTOInterface
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:10: error: cannot find symbol
+public StudentDTOInterface getByRollNumber(int rollNumber) throws DAOException;
+                                                                  ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:11: error: cannot find symbol
+public boolean exists(int rollNumber) throws DAOException;
+                                             ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTO> getAll() throws DAOException;
+            ^
+  symbol:   class StudentDTO
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTO> getAll() throws DAOException;
+                                        ^
+  symbol:   class DAOException
+  location: interface StudentDAOInterface
+StudentDAOInterface.java:2: error: package com.school.dl.interfaces.dto does not exist
+import com.school.dl.interfaces.dto.*;
+                               ^
+StudentDAOInterface.java:3: error: package com.school.dl.exceptions does not exist
+import com.school.dl.exceptions.*;
+                    ^
+10 errors
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTO> getAll() throws DAOException;
+            ^
+  symbol:   class StudentDTO
+  location: interface StudentDAOInterface
+1 error
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: '{' or ';' expected
+public List<StudentDTO> getAll() throws DAOException
+                                                    ^
+1 error
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<StudentDTO> getAll() throws DAOException;
+            ^
+  symbol:   class StudentDTO
+  location: interface StudentDAOInterface
+1 error
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<studentDTO> getAll() throws DAOException;
+            ^
+  symbol:   class studentDTO
+  location: interface StudentDAOInterface
+1 error
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: cannot find symbol
+public List<students> getAll() throws DAOException;
+            ^
+  symbol:   class students
+  location: interface StudentDAOInterface
+1 error
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+StudentDAOInterface.java:12: error: > or ',' expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                ^
+StudentDAOInterface.java:12: error: = expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                          ^
+StudentDAOInterface.java:12: error: = expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                                  ^
+StudentDAOInterface.java:12: error: <identifier> expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                                      ^
+StudentDAOInterface.java:12: error: <identifier> expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                                       ^
+StudentDAOInterface.java:12: error: = expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                                                  ^
+StudentDAOInterface.java:12: error: <identifier> expected
+public List<int rollNumber,String name,char gender> getAll() throws DAOException;
+                                                          ^
+7 errors
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>javac -classpath E:\practices\javaeg\tech4\superman\classes;. -d E:\practices\javaeg\tech4\superman\classes *.java
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces\dao>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl\interfaces>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine\dl>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com\thinkingmachine>cd ..
+
+E:\practices\javaeg\tech4\superman\src\com>cd ..
+
+E:\practices\javaeg\tech4\superman\src>cd ..
+
+E:\practices\javaeg\tech4\superman>cd classes
+
+E:\practices\javaeg\tech4\superman\classes>jar -cvf ..\dist\ThinkingMachine-dl-Interfaces.jar com
+added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/exceptions/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/exceptions/DAOException.class(in = 258) (out= 196)(deflated 24%)
+adding: com/thinkingmachine/dl/interfaces/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/interfaces/dao/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/interfaces/dao/StudentDAOInterface.class(in = 618) (out= 313)(deflated 49%)
+adding: com/thinkingmachine/dl/interfaces/dto/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/interfaces/dto/StudentDTOInterface.class(in = 382) (out= 252)(deflated 34%)
+
+E:\practices\javaeg\tech4\superman\classes>cd ..
+
+E:\practices\javaeg\tech4\superman>cd dist
+
+E:\practices\javaeg\tech4\superman\dist>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\superman\dist
+
+11/03/2025  08:53 PM    <DIR>          .
+11/03/2025  05:45 PM    <DIR>          ..
+11/03/2025  08:53 PM             2,630 ThinkingMachine-dl-Interfaces.jar
+               1 File(s)          2,630 bytes
+               2 Dir(s)  129,906,581,504 bytes free
+
+E:\practices\javaeg\tech4\superman\dist>
