@@ -1,0 +1,196 @@
+Microsoft Windows [Version 10.0.26200.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\practices\javaeg\tech4\Amit\classes>jar -cvf ..\dist\ThinkingMachine-dl.jar com
+added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/dao/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/dao/StudentDAO.class(in = 5022) (out= 2588)(deflated 48%)
+adding: com/thinkingmachine/dl/dto/(in = 0) (out= 0)(stored 0%)
+adding: com/thinkingmachine/dl/dto/StudentDTO.class(in = 958) (out= 490)(deflated 48%)
+
+E:\practices\javaeg\tech4\Amit\classes>cd ..
+
+E:\practices\javaeg\tech4\Amit>cd dist
+
+E:\practices\javaeg\tech4\Amit\dist>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\Amit\dist
+
+11/08/2025  01:31 PM    <DIR>          .
+11/05/2025  12:52 AM    <DIR>          ..
+11/08/2025  01:31 PM             4,339 ThinkingMachine-dl.jar
+               1 File(s)          4,339 bytes
+               2 Dir(s)  129,905,704,960 bytes free
+
+E:\practices\javaeg\tech4\Amit\dist>  cd ..
+
+E:\practices\javaeg\tech4\Amit>cd ..
+
+E:\practices\javaeg\tech4>md Bobby
+
+E:\practices\javaeg\tech4>cd bobby
+
+E:\practices\javaeg\tech4\Bobby>md lib
+
+E:\practices\javaeg\tech4\Bobby>cd lib
+
+E:\practices\javaeg\tech4\Bobby\lib>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\Bobby\lib
+
+11/08/2025  01:56 PM    <DIR>          .
+11/08/2025  01:55 PM    <DIR>          ..
+11/04/2025  11:17 PM             2,622 ThinkingMachine-dl-Interfaces.jar
+11/08/2025  01:31 PM             4,339 ThinkingMachine-dl.jar
+               2 File(s)          6,961 bytes
+               2 Dir(s)  129,905,692,672 bytes free
+
+E:\practices\javaeg\tech4\Bobby\lib>cd ..
+
+E:\practices\javaeg\tech4\Bobby>md dist
+
+E:\practices\javaeg\tech4\Bobby>md src
+
+E:\practices\javaeg\tech4\Bobby>md classes
+
+E:\practices\javaeg\tech4\Bobby>cd src
+
+E:\practices\javaeg\tech4\Bobby\src>md com
+
+E:\practices\javaeg\tech4\Bobby\src>cd com
+
+E:\practices\javaeg\tech4\Bobby\src\com>md thinkingmachine
+
+E:\practices\javaeg\tech4\Bobby\src\com>cd thinkingmachine
+
+E:\practices\javaeg\tech4\Bobby\src\com\thinkingmachine>md manager
+
+E:\practices\javaeg\tech4\Bobby\src\com\thinkingmachine>cd manager
+
+E:\practices\javaeg\tech4\Bobby\src\com\thinkingmachine\manager>notepad StudentManager.java
+
+E:\practices\javaeg\tech4\Bobby\src\com\thinkingmachine\manager>cd ..
+
+E:\practices\javaeg\tech4\Bobby\src\com\thinkingmachine>cd ..
+
+E:\practices\javaeg\tech4\Bobby\src\com>cd ..
+
+E:\practices\javaeg\tech4\Bobby\src>cd ..
+
+E:\practices\javaeg\tech4\Bobby>cd ..
+
+E:\practices\javaeg\tech4>md Yogesh
+
+E:\practices\javaeg\tech4>cd Yogesh
+
+E:\practices\javaeg\tech4\Yogesh>md src
+
+E:\practices\javaeg\tech4\Yogesh>cd src
+
+E:\practices\javaeg\tech4\Yogesh\src>md com
+
+E:\practices\javaeg\tech4\Yogesh\src>cd com
+
+E:\practices\javaeg\tech4\Yogesh\src\com>md io
+
+E:\practices\javaeg\tech4\Yogesh\src\com>cd io
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io>md util
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io>cd util
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>notepad Keyboard.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>notepad KeyboardInputException.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac -d E:\javaeg\tech4\yogesh\classes *.java
+KeyboardInputException.java:1: error: ';' expected
+package com.io.util
+                   ^
+1 error
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac -d E:\javaeg\tech4\yogesh\classes *.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac *.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac -d E:\practices\javaeg\tech4\yogesh\classes *.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac -d E:\practices\javaeg\tech4\yogesh\classes *.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>javac -d E:\practices\javaeg\tech4\yogesh\classes *.java
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io\util>cd ..
+
+E:\practices\javaeg\tech4\Yogesh\src\com\io>cd ..
+
+E:\practices\javaeg\tech4\Yogesh\src\com>cd ..
+
+E:\practices\javaeg\tech4\Yogesh\src>cd ..
+
+E:\practices\javaeg\tech4\Yogesh>cd classes
+
+E:\practices\javaeg\tech4\Yogesh\classes>jar -csf ..\dist\io-utils.jar com
+Illegal option: s
+Try `jar --help' for more information.
+
+E:\practices\javaeg\tech4\Yogesh\classes>jar -csf ..\dist\io-util.jar com
+Illegal option: s
+Try `jar --help' for more information.
+
+E:\practices\javaeg\tech4\Yogesh\classes>jar -cvf ..\dist\io-utils.jar com
+added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/io/(in = 0) (out= 0)(stored 0%)
+adding: com/io/util/(in = 0) (out= 0)(stored 0%)
+adding: com/io/util/Keyboard.class(in = 4806) (out= 2103)(deflated 56%)
+adding: com/io/util/KeyboardInputException.class(in = 256) (out= 193)(deflated 24%)
+
+E:\practices\javaeg\tech4\Yogesh\classes>cd ..
+
+E:\practices\javaeg\tech4\Yogesh>cd dist
+
+E:\practices\javaeg\tech4\Yogesh\dist>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\Yogesh\dist
+
+11/08/2025  05:32 PM    <DIR>          .
+11/08/2025  05:30 PM    <DIR>          ..
+11/08/2025  05:32 PM             3,209 io-utils.jar
+               1 File(s)          3,209 bytes
+               2 Dir(s)  129,905,647,616 bytes free
+
+E:\practices\javaeg\tech4\Yogesh\dist>copy io-utils.jar ..\..\bobby\lib
+        1 file(s) copied.
+
+E:\practices\javaeg\tech4\Yogesh\dist>cd ..
+
+E:\practices\javaeg\tech4\Yogesh>cd ..
+
+E:\practices\javaeg\tech4>cd bobby
+
+E:\practices\javaeg\tech4\Bobby>cd lib
+
+E:\practices\javaeg\tech4\Bobby\lib>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 1E4C-F9ED
+
+ Directory of E:\practices\javaeg\tech4\Bobby\lib
+
+11/08/2025  05:33 PM    <DIR>          .
+11/08/2025  02:06 PM    <DIR>          ..
+11/08/2025  05:32 PM             3,209 io-utils.jar
+11/04/2025  11:17 PM             2,622 ThinkingMachine-dl-Interfaces.jar
+11/08/2025  01:31 PM             4,339 ThinkingMachine-dl.jar
+               3 File(s)         10,170 bytes
+               2 Dir(s)  129,905,643,520 bytes free
+
+E:\practices\javaeg\tech4\Bobby\lib>
